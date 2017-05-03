@@ -1,0 +1,104 @@
+
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+  font-family: "Open sans";
+}
+
+h1 {
+  color: #DD5555;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+h2, h3 {
+  color: #7D7D7D;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h4 {
+  color: #7D7D7D;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+p {
+  color: #8B8D8B;
+  text-align: center;
+  font-weight: 300;
+  font-family: "Open sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+div {
+  display: block;
+}
+
+
+.style-link {
+  color: #CDCDD1;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: medium;
+  padding: 20px;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+
+.text-center {
+  text-align: left;
+}
+
+.text-left {
+  line-height: 24px;
+  text-align: left;
+}
+
+#profile-radius {
+  border-radius: 50px;
+  border: 4px solid #CCCCCC;
+}
+
+#red-box {
+  background-color: #DD5555;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+#red-box:hover {  background-color: #CC3629; }
+
+
